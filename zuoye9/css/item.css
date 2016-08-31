@@ -1,0 +1,37 @@
+/*设置列表每一个item的样式*/
+.itemClass{
+	width: 400px;
+	height: 100px;
+	border-bottom: 1px dashed blue;
+}
+/*img div*/
+.itemClass>div:first-child{
+	float: left;
+	box-sizing: border-box;
+	width: 120px;
+	height: 100px;
+	padding: 10px;
+}
+.itemClass img{
+	display: block;
+	width: 100px;
+	height: 80px;
+	
+}
+/*文本div*/
+.itemClass>div:last-child{
+	float: left;
+	box-sizing: border-box;
+	width: 280px;
+	height: 100px;
+	padding: 10px 10px 10px 0px;
+	overflow: auto;
+}
+/*文本标题*/
+.itemClass h3{
+}
+/*文本描述*/
+.itemClass p{
+	height: 35px;
+	overflow: hidden;
+}
